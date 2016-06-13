@@ -2,7 +2,7 @@
 
 namespace Messenger.Client.Objects
 {
-    public class MessangerUser
+    public class MessengerUser
     {
         public String Id { get; set; }
     }

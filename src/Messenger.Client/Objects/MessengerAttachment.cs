@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace Messenger.Client.Objects
 {
@@ -9,6 +6,6 @@ namespace Messenger.Client.Objects
     {
         public String Type { get; set; }
 
-
+        public MessengerPayload Payload { get; set; }
     }
 }

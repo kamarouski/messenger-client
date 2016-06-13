@@ -1,16 +1,18 @@
 {
-  "version": "0.0.1",
+  "version": "0.0.3",
   "title": "Facebook Messenger .NET Client",
   "description": ".NET Client for Facebook Messenger Platform",
   "authors": [ "Andrew Kamarouski" ],
-  "repository": {
-    "type": "git",
-    "url": ""
-  },
 
   "packOptions": {
+    "projectUrl": "https://github.com/kamarouski/messenger-client",
+    "tags": [ "facebook", "messenger", "chatbot", "bot" ],
     "requireLicenseAcceptance": false,
-    "licenseUrl": "http://www.opensource.org/licenses/MIT"
+    "licenseUrl": "http://www.opensource.org/licenses/MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/kamarouski/messenger-client"
+    }
   },
 
   "dependencies": {

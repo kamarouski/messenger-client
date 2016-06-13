@@ -13,6 +13,7 @@ namespace Messenger.Client.Objects
 
         public String Text { get; set; }
 
-        public ICollection<MessengerAttachment> Attachments { get; set; } = new List<MessengerAttachment>();
+        public ICollection<MessengerAttachment> Attachments { get; set; }
+
     }
 }

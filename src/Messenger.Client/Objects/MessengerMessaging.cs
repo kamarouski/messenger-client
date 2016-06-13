@@ -2,9 +2,9 @@
 {
     public class MessengerMessaging
     {
-        public MessangerUser Sender { get; set; }
+        public MessengerUser Sender { get; set; }
 
-        public MessangerUser Recepient { get; set; }
+        public MessengerUser Recepient { get; set; }
 
         public long Timestamp { get; set; }
 
