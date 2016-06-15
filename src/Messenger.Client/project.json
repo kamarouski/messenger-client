@@ -1,7 +1,7 @@
 {
-  "version": "0.1.0",
+  "version": "0.1.2",
   "title": "Facebook Messenger .NET Client",
-  "description": ".NET Client for Facebook Messenger Platform",
+  "description": ".NET Client for Facebook Messenger Platform. GitHub Repository: https://github.com/kamarouski/messenger-client",
   "authors": [ "Andrew Kamarouski" ],
 
   "packOptions": {
@@ -12,7 +12,8 @@
     "repository": {
       "type": "git",
       "url": "https://github.com/kamarouski/messenger-client"
-    }
+    },
+    "summary": "GitHub Repository: https://github.com/kamarouski/messenger-client"
   },
 
   "dependencies": {
