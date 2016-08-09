@@ -8,4 +8,9 @@ namespace Messenger.Client.Objects
 
         public String RawResponse { get; set; }
     }
+
+    public class MessengerResponse<T> : MessengerResponse
+    {
+        public T Result { get; set; }
+    }
 }

@@ -1,5 +1,5 @@
 ﻿{
-  "version": "0.1.2",
+  "version": "0.2.0",
   "title": "Facebook Messenger .NET Client ASP.NET Core Extensions",
   "description": "ASP.NET Core extensions for Facebook Messenger Platform .NET client. GitHub Repository: https://github.com/kamarouski/messenger-client",
   "authors": [ "Andrew Kamarouski" ],
@@ -17,14 +17,14 @@
   },
 
   "dependencies": {
-    "Messenger.Client": "0.1.1",
-    "Microsoft.Extensions.DependencyInjection": "1.0.0-rc2-final",
-    "NETStandard.Library": "1.5.0-rc2-24027"
+    "Messenger.Client": "0.2.0",
+    "Microsoft.Extensions.DependencyInjection": "1.0.0",
+    "Microsoft.NETCore.App": "1.0.0"
   },
 
   "frameworks": {
-    "netstandard1.5": {
-      "imports": "dnxcore50"
+    "netcoreapp1.0": {
+      "imports": [ "dotnet5.6", "portable-net45+win8+wp8" ]
     }
   }
 }

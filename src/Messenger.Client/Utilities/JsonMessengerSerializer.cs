@@ -1,4 +1,5 @@
-﻿using Newtonsoft.Json;
+﻿using System;
+using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
 
 namespace Messenger.Client.Utilities
@@ -8,6 +9,11 @@ namespace Messenger.Client.Utilities
         public string Serialize<T>(T obj)
         {
             return JsonConvert.SerializeObject(obj, Settings);
+        }
+
+        public T Deserialize<T>(String value)
+        {
+            return JsonConvert.DeserializeObject<T>(value);
         }
 
         private JsonSerializerSettings Settings => new JsonSerializerSettings

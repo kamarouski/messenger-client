@@ -22,5 +22,24 @@ namespace Messenger.Client.Objects
         public MessengerOrderSummary Summary { get; set; }
 
         public ICollection<MessengerOrderAdjustment> Adjustments { get; set; }
+
+        [JsonProperty("recipient_type")]
+        public String RecipientType { get; set; }
+
+        [JsonProperty("recipient_name")]
+        public String RecipientName { get; set; }
+
+        [JsonProperty("order_number")]
+        public String OrderNumber { get; set; }
+
+        public String Currency { get; set; }
+
+        [JsonProperty("payment_method")]
+        public String PaymentMethod { get; set; }
+
+        [JsonProperty("order_url")]
+        public String OrderUrl { get; set; }
+
+        public String Timestamp { get; set; }
     }
 }

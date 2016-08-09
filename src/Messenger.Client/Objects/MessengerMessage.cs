@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using Newtonsoft.Json;
 
 namespace Messenger.Client.Objects
 {
@@ -12,5 +14,7 @@ namespace Messenger.Client.Objects
 
         public MessengerAttachment Attachment { get; set; }
 
+        [JsonProperty("quick_replies")]
+        public ICollection<MessengerQuickReply> QuickReplies { get; set; }
     }
 }

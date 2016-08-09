@@ -18,6 +18,7 @@ namespace Messenger.Client.Extensions
 
             services.AddSingleton<IMessengerSerializer, JsonMessengerSerializer>();
             services.AddSingleton<IMessengerMessageSender, MessengerMessageSender>();
+            services.AddSingleton<IMessengerProfileProvider, MessengerProfileProvider>();
         }
     }
 }
