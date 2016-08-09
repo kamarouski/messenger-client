@@ -1,5 +1,5 @@
 ﻿{
-  "version": "0.2.0",
+  "version": "0.2.1",
   "title": "Facebook Messenger .NET Client ASP.NET Core Extensions",
   "description": "ASP.NET Core extensions for Facebook Messenger Platform .NET client. GitHub Repository: https://github.com/kamarouski/messenger-client",
   "authors": [ "Andrew Kamarouski" ],
