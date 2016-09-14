@@ -6,6 +6,8 @@ namespace Messenger.Client.Objects
     {
         public bool Succeed { get; set; } = true;
 
+        public bool Failed => !Succeed;
+
         public String RawResponse { get; set; }
     }
 
