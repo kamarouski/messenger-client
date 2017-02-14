@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Description>ASP.NET Core extensions for Facebook MessengerThreadSettings Platform .NET client. GitHub Repository: https://github.com/kamarouski/messenger-client</Description>
+    <AssemblyTitle>Facebook Messenger .NET Client ASP.NET Core Extensions</AssemblyTitle>
+    <VersionPrefix>0.3.0</VersionPrefix>
+    <Authors>Andrew Kamarouski</Authors>
+    <TargetFramework>netstandard1.6</TargetFramework>
+    <AssemblyName>Messenger.Client.Extensions</AssemblyName>
+    <PackageId>Messenger.Client.Extensions</PackageId>
+    <PackageTags>facebook;messenger;chatbot;bot</PackageTags>
+    <PackageProjectUrl>https://github.com/kamarouski/messenger-client</PackageProjectUrl>
+    <PackageLicenseUrl>http://www.opensource.org/licenses/MIT</PackageLicenseUrl>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/kamarouski/messenger-client</RepositoryUrl>
+    <NetStandardImplicitPackageVersion>1.6.1</NetStandardImplicitPackageVersion>
+    <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+    <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+    <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+    <GenerateAssemblyVersionAttribute>false</GenerateAssemblyVersionAttribute>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Messenger.Client\Messenger.Client.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="1.0.1" />
+  </ItemGroup>
+
+</Project>

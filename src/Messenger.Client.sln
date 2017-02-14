@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.26206.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Messenger.Client", "Messenger.Client\Messenger.Client.xproj", "{83C4680A-BDFF-4CB5-9A9A-C6205B88575E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Messenger.Client", "Messenger.Client\Messenger.Client.csproj", "{83C4680A-BDFF-4CB5-9A9A-C6205B88575E}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Messenger.Client.Extensions", "Messenger.Client.Extensions\Messenger.Client.Extensions.xproj", "{DA848CA4-F166-4151-AAFD-29864365D454}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Messenger.Client.Extensions", "Messenger.Client.Extensions\Messenger.Client.Extensions.csproj", "{DA848CA4-F166-4151-AAFD-29864365D454}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
