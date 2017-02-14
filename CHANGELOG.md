@@ -1,3 +1,10 @@
+# 0.3.0
+**Changes**
+* Moved to .NET Standard Library 1.6
+* Updated project structure to VS2017 (just because I can)
+* Web Views
+* List Templates
+
 # 0.2.5
 
 **Changes**
