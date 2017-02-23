@@ -13,6 +13,9 @@ namespace Messenger.Client.Objects
         [JsonProperty("template_type")]
         public String TemplateType { get; set; }
 
+        [JsonProperty("top_element_style")]
+        public String TopElementStyle { get; set; }
+
         public ICollection<MessengerButton> Buttons { get; set; }
 
         public ICollection<MessengerElement> Elements { get; set; }
