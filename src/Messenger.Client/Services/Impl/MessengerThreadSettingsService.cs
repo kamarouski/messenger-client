@@ -1,4 +1,5 @@
-﻿using System.Threading.Tasks;
+﻿using System.Collections.Generic;
+using System.Threading.Tasks;
 using Messenger.Client.Objects;
 using Messenger.Client.Utilities;
 
@@ -32,6 +33,17 @@ namespace Messenger.Client.Services.Impl
                 RawResponse = response.RawResponse,
                 Result = response.Result
             };
+        }
+
+        public Task<MessengerResponse<string>> WhitelistDomains(IEnumerable<string> domains, string accessToken)
+        {
+            var setting = new MessengerDomainWhitelistingSetting
+            {
+                DomainActionType = MessengerDomainActionType.Add,
+                WhitelistedDomains = new List<string>(domains)
+            };
+
+            return Save(setting, accessToken);
         }
     }
 }

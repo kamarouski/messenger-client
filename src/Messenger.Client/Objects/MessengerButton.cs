@@ -18,5 +18,8 @@ namespace Messenger.Client.Objects
 
         [JsonProperty("messenger_extensions")]
         public bool? MessengerExtensions { get; set; }
+
+        [JsonProperty("fallback_url")]
+        public string FallbackUrl { get; set; }
     }
 }

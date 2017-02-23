@@ -3,15 +3,12 @@ using Newtonsoft.Json;
 
 namespace Messenger.Client.Objects
 {
-    public class MessengerThreadSetting
+    public abstract class MessengerThreadSetting
     {
         [JsonProperty("setting_type")]
-        public string SettingType { get; set; }
+        public abstract string SettingType { get; }
 
         [JsonProperty("thread_state")]
         public string ThreadState { get; set; }
-
-        [JsonProperty("call_to_actions")]
-        public ICollection<MessengerCallToAction> CallToActions { get; set; }
     }
 }

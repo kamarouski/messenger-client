@@ -8,9 +8,9 @@ namespace Messenger.Client.Objects
 
         public string Title { get; set; }
 
-        public string Payload { get; set; }
-
         public string Url { get; set; }
+
+        public string Payload { get; set; }
 
         [JsonProperty("webview_height_ratio")]
         public string WebviewHeightRatio { get; set; }
