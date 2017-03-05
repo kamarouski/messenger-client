@@ -1,8 +1,10 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using Newtonsoft.Json;
 
 namespace Messenger.Client.Objects
 {
+    [Obsolete]
     public class MessengerPersistentMenuSetting : MessengerThreadSetting
     {
         public MessengerPersistentMenuSetting()

@@ -8,9 +8,6 @@ namespace Messenger.Client.Objects
     {
         public String Title { get; set; }
 
-        [JsonProperty("item_url")]
-        public String ItemUrl { get; set; }
-
         [JsonProperty("image_url")]
         public String ImageUrl { get; set; }
 

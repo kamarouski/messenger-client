@@ -22,6 +22,7 @@ namespace Messenger.Client.Extensions
             services.AddSingleton<IMessengerThreadSettingsService, MessengerThreadSettingsService>();
             services.AddSingleton<IMessengerRestClient, MessengerRestClient>();
             services.AddSingleton<IMessengerThreadSettingsService, MessengerThreadSettingsService>();
+            services.AddSingleton<IMessengerProfileService, MessengerProfileService>();
         }
     }
 }

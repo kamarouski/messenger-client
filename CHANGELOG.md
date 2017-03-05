@@ -1,3 +1,8 @@
+# 0.5.0
+**Changes**
+
+* Messenger Platform 1.4 Persistent menu support. Use *IMessengerProfileService* to manage menu, get started button and greeting text.
+
 
 
 # 0.4.2
