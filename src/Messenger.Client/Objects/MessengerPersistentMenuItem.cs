@@ -23,6 +23,9 @@ namespace Messenger.Client.Objects
         [JsonProperty("fallback_url")]
         public string FallbackUrl { get; set; }
 
+        [JsonProperty("webview_share_button")]
+        public MessengerShareButtonVisibility? WebviewShareButton { get; set; }
+
         [JsonProperty("call_to_actions")]
         public ICollection<MessengerPersistentMenuItem> CallToActions { get; set; }
     }
