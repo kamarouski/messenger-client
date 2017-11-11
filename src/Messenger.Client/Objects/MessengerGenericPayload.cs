@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using Messenger.Client.Objects.Enums;
 
 namespace Messenger.Client.Objects
 {
@@ -6,6 +7,6 @@ namespace Messenger.Client.Objects
     {
         public ICollection<MessengerElement> Elements { get; set; }
 
-        public override string TemplateType => MessengerTemplateType.Generic;
+        public override MessengerTemplateType TemplateType => MessengerTemplateType.Generic;
     }
 }

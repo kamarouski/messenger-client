@@ -1,13 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using Messenger.Client.Objects.Enums;
 using Newtonsoft.Json;
 
 namespace Messenger.Client.Objects
 {
     public class MessengerReceiptPayload : MessengerPayload
     {
-        public override string TemplateType => MessengerTemplateType.Receipt;
+        public override MessengerTemplateType TemplateType => MessengerTemplateType.Receipt;
 
         [JsonProperty("recipient_name")]
         public String RecipientName { get; set; }

@@ -1,4 +1,4 @@
-﻿using System.Collections.Generic;
+﻿using Messenger.Client.Objects.Enums;
 using Newtonsoft.Json;
 
 namespace Messenger.Client.Objects
@@ -6,7 +6,7 @@ namespace Messenger.Client.Objects
     public abstract class MessengerThreadSetting
     {
         [JsonProperty("setting_type")]
-        public abstract string SettingType { get; }
+        public abstract MessengerThreadSettingType SettingType { get; }
 
         [JsonProperty("thread_state")]
         public string ThreadState { get; set; }

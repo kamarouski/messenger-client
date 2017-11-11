@@ -11,6 +11,6 @@ namespace Messenger.Client.Objects
         public bool ComponserInputDisabled { get; set; } = false;
 
         [JsonProperty("call_to_actions")]
-        public ICollection<MessengerPersistentMenuAction> CallToActions { get; set; }
+        public ICollection<MessengerPersistentMenuItem> CallToActions { get; set; }
     }
 }
