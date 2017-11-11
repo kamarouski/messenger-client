@@ -6,6 +6,6 @@ namespace Messenger.Client.Objects
     {
         public ICollection<MessengerElement> Elements { get; set; }
 
-        public override string TemplateType => MessengerTemplateType.Generic;
+        public override MessengerTemplateType TemplateType => MessengerTemplateType.Generic;
     }
 }

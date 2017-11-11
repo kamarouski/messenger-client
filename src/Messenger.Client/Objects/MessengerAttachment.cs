@@ -1,10 +1,11 @@
-﻿using System;
+﻿using Messenger.Client.Objects.Enums;
+
 
 namespace Messenger.Client.Objects
 {
     public class MessengerAttachment
     {
-        public String Type { get; set; }
+        public MessengerAttachmentType Type { get; set; }
 
         public MessengerPayload Payload { get; set; }
     }

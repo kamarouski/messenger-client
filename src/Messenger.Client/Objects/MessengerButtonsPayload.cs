@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
 
 namespace Messenger.Client.Objects
 {
@@ -10,6 +9,6 @@ namespace Messenger.Client.Objects
 
         public ICollection<MessengerButton> Buttons { get; set; }
 
-        public override string TemplateType => MessengerTemplateType.Button;
+        public override MessengerTemplateType TemplateType => MessengerTemplateType.Button;
     }
 }

@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
 using Messenger.Client.Objects;
+using Messenger.Client.Objects.Enums;
 using Messenger.Client.Utilities;
 
 namespace Messenger.Client.Services.Impl

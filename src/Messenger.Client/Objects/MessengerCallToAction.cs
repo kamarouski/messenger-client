@@ -1,7 +1,10 @@
-﻿using Newtonsoft.Json;
+﻿using System;
+using Messenger.Client.Objects.Enums;
+using Newtonsoft.Json;
 
 namespace Messenger.Client.Objects
 {
+    [Obsolete]
     public class MessengerCallToAction
     {
         public string Type { get; set; }
@@ -13,7 +16,7 @@ namespace Messenger.Client.Objects
         public string Payload { get; set; }
 
         [JsonProperty("webview_height_ratio")]
-        public string WebviewHeightRatio { get; set; }
+        public MessengerWebViewHeightRatio WebviewHeightRatio { get; set; }
 
         [JsonProperty("messenger_extensions")]
         public bool? MessengerExtensions { get; set; }

@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using Messenger.Client.Objects.Enums;
 using Newtonsoft.Json;
 
 namespace Messenger.Client.Objects
@@ -9,9 +10,9 @@ namespace Messenger.Client.Objects
 
         public ICollection<MessengerButton> Buttons { get; set; }
 
-        public override string TemplateType => MessengerTemplateType.List;
+        public override MessengerTemplateType TemplateType => MessengerTemplateType.List;
 
         [JsonProperty("top_element_style")]
-        public string TopElementStyle { get; set; }
+        public MessengerTopElementStyle TopElementStyle { get; set; }
     }
 }

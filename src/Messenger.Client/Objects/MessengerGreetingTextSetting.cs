@@ -1,8 +1,11 @@
-﻿namespace Messenger.Client.Objects
+﻿using Messenger.Client.Objects.Enums;
+
+
+namespace Messenger.Client.Objects
 {
     public class MessengerGreetingTextSetting : MessengerThreadSetting
     {
-        public override string SettingType => "greeting";
+        public override MessengerThreadSettingType SettingType => MessengerThreadSettingType.Greeting;
 
         public MessengerGreeting Greeting { get; set; }
     }

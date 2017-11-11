@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using Messenger.Client.Objects.Enums;
 using Newtonsoft.Json;
 
 namespace Messenger.Client.Objects
@@ -10,7 +11,7 @@ namespace Messenger.Client.Objects
             ThreadState = "new_thread";
         }
 
-        public override string SettingType => "call_to_actions";
+        public override MessengerThreadSettingType SettingType => MessengerThreadSettingType.CallToActions;
 
         [JsonProperty("call_to_actions")]
         public ICollection<MessengerPayloadCallToAction> CallToActions { get; set; }

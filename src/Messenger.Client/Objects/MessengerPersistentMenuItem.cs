@@ -1,9 +1,10 @@
 ﻿using System.Collections.Generic;
+using Messenger.Client.Objects.Enums;
 using Newtonsoft.Json;
 
 namespace Messenger.Client.Objects
 {
-    public class MessengerPersistentMenuAction
+    public class MessengerPersistentMenuItem
     {
         public string Title { get; set; }
 
@@ -14,7 +15,7 @@ namespace Messenger.Client.Objects
         public string Url { get; set; }
 
         [JsonProperty("webview_height_ratio")]
-        public string WebViewHeightRatio { get; set; }
+        public MessengerWebViewHeightRatio? WebViewHeightRatio { get; set; }
 
         [JsonProperty("messenger_extensions")]
         public bool? MessengerExtensions { get; set; }
@@ -23,9 +24,9 @@ namespace Messenger.Client.Objects
         public string FallbackUrl { get; set; }
 
         [JsonProperty("webview_share_button")]
-        public string WebviewShareButton { get; set; }
+        public MessengerWebViewHeightRatio WebviewShareButton { get; set; }
 
         [JsonProperty("call_to_actions")]
-        public ICollection<MessengerPersistentMenuAction> CallToActions { get; set; }
+        public ICollection<MessengerPersistentMenuItem> CallToActions { get; set; }
     }
 }
