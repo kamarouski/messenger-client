@@ -3,7 +3,6 @@
   <PropertyGroup>
     <Description>.NET Client for Facebook Messenger Platform. GitHub Repository: https://github.com/kamarouski/messenger-client</Description>
     <AssemblyTitle>Facebook Messenger .NET Client</AssemblyTitle>
-    <VersionPrefix>0.3.0</VersionPrefix>
     <Authors>Andrew Kamarouski</Authors>
     <TargetFramework>netstandard1.6</TargetFramework>
     <AssemblyName>Messenger.Client</AssemblyName>
@@ -19,7 +18,7 @@
     <GenerateAssemblyDescriptionAttribute>false</GenerateAssemblyDescriptionAttribute>
     <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
     <GenerateAssemblyVersionAttribute>false</GenerateAssemblyVersionAttribute>
-    <Version>0.5.0</Version>
+    <Version>0.6.0</Version>
   </PropertyGroup>
 
   <ItemGroup>

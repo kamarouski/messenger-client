@@ -9,9 +9,9 @@ namespace Messenger.Client.Demo.Controllers
     [Route("api/webhook")]
     public class FacebookController : Controller
     {
-        private readonly IMesengerMessageSender messageSender;
+        private readonly IMessengerMessageSender messageSender;
 
-        public FacebookController(IMesengerMessageSender messageSender)
+        public FacebookController(IMessengerMessageSender messageSender)
         {
             this.messageSender = messageSender;
         }

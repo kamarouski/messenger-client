@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp1.0</TargetFramework>
+    <PreserveCompilationContext>true</PreserveCompilationContext>
+    <AssemblyName>Messenger.Client.Demo</AssemblyName>
+    <OutputType>Exe</OutputType>
+    <PackageId>Messenger.Client.Demo</PackageId>
+    <RuntimeFrameworkVersion>1.0.4</RuntimeFrameworkVersion>
+    <PackageTargetFallback>$(PackageTargetFallback);dotnet5.6;dnxcore50;portable-net45+win8</PackageTargetFallback>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Server.IISIntegration" Version="1.0.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Server.Kestrel" Version="1.0.3" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="1.0.3" />
+    <PackageReference Include="Messenger.Client.Extensions" Version="0.5.0" />
+  </ItemGroup>
+  <!-- NOTE: used to reference Messenger.Client projects at debug time (ie: prior to submission to NuGet) -->
+  <ItemGroup>
+    <Reference Include="Messenger.Client.Extensions">
+      <HintPath>..\..\src\Messenger.Client.Extensions\Messenger.Client.Extensions.csproj</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>
