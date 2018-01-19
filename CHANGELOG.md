@@ -1,9 +1,23 @@
+# 0.6.0
+**Changes**
+* Added sender actions (mark seen, typing indicator)
+* Added 'webview_share_button' setting on URL button
+
+**Breaking Changes**
+
+* Renamed MessengerPersistentMenuAction to MessengerPersistentMenuItem
+To migrate from previous versions simply rename all instances of MessengerPersistentMenuAction to MessengerPersistentMenuItem
+* Added structured enums across entire SDK surface
+To migrate from previous versions replace all instances of magic strings to their respective enum values
+ie:
+- for MessengerAttachment, instead of setting 'Type = "template"' use 'Type = MessengerAttachmentType.Template'
+- for MessengerButton, instead of setting 'Type = "web_urL"' use 'Type = MessengerButtonType.WebURL'
+- etc.
+
 # 0.5.0
 **Changes**
 
 * Messenger Platform 1.4 Persistent menu support. Use *IMessengerProfileService* to manage menu, get started button and greeting text.
-
-
 
 # 0.4.2
 

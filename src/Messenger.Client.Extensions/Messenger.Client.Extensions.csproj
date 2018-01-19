@@ -1,8 +1,7 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <Description>ASP.NET Core extensions for Facebook MessengerThreadSettings Platform .NET client. GitHub Repository: https://github.com/kamarouski/messenger-client</Description>
     <AssemblyTitle>Facebook Messenger .NET Client ASP.NET Core Extensions</AssemblyTitle>
-    <VersionPrefix>0.3.0</VersionPrefix>
     <Authors>Andrew Kamarouski</Authors>
     <TargetFramework>netstandard2.0</TargetFramework>
     <AssemblyName>Messenger.Client.Extensions</AssemblyName>
@@ -17,10 +16,10 @@
     <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
     <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
     <GenerateAssemblyVersionAttribute>false</GenerateAssemblyVersionAttribute>
-    <Version>0.5.0</Version>
+    <Version>0.6.0</Version>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Messenger.Client" Version="0.5.0" />
+    <PackageReference Include="Messenger.Client" Version="0.6.0" />
     <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="2.0.0" />
     <PackageReference Include="NETStandard.Library" Version="2.0.1" />
   </ItemGroup>

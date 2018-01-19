@@ -12,7 +12,7 @@
     <PackageReference Include="Microsoft.AspNetCore.Server.IISIntegration" Version="1.0.2" />
     <PackageReference Include="Microsoft.AspNetCore.Server.Kestrel" Version="1.0.3" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="1.0.3" />
-    <PackageReference Include="Messenger.Client.Extensions" Version="0.5.0" />
+    <PackageReference Include="Messenger.Client.Extensions" Version="0.6.0" />
   </ItemGroup>
   <!-- NOTE: used to reference Messenger.Client projects at debug time (ie: prior to submission to NuGet) -->
   <ItemGroup>
