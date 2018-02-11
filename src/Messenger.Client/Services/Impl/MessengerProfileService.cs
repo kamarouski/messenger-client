@@ -106,6 +106,17 @@ namespace Messenger.Client.Services.Impl
             
             return Post(url, data );
         }
+        
+        public Task<MessengerResponse> SetTargetAudience(string accessToken, MessengerTargetAudience targetAudience)
+        {
+            var url = String.Format(UrlTemplate, accessToken);
+            var data = new
+            {
+                target_audience = targetAudience
+            };
+            
+            return Post(url, data );
+        }
 
         private async Task<MessengerProfileData> GetProfileData(string accessToken, string field)
         {

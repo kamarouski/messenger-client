@@ -27,5 +27,7 @@ namespace Messenger.Client.Services
         Task<MessengerResponse> WhitelistDomains(string accessToken, params string[] domains);
         
         Task<MessengerResponse> SetHomeURL(string accessToken, MessengerHomeURL homeURL);
+        
+        Task<MessengerResponse> SetTargetAudience(string accessToken, MessengerTargetAudience targetAudience);
     }
 }
