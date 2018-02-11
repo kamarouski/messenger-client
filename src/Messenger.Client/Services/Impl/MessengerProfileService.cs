@@ -95,6 +95,17 @@ namespace Messenger.Client.Services.Impl
 
             return Post(url, data);
         }
+        
+        public Task<MessengerResponse> SetHomeURL(string accessToken, MessengerHomeURL homeURL)
+        {
+            var url = String.Format(UrlTemplate, accessToken);
+            var data = new
+            {
+                home_url = homeURL
+            };
+            
+            return Post(url, data );
+        }
 
         private async Task<MessengerProfileData> GetProfileData(string accessToken, string field)
         {

@@ -25,5 +25,7 @@ namespace Messenger.Client.Services
         Task<MessengerResponse> DeleteGreetingText(string accessToken);
 
         Task<MessengerResponse> WhitelistDomains(string accessToken, params string[] domains);
+        
+        Task<MessengerResponse> SetHomeURL(string accessToken, MessengerHomeURL homeURL);
     }
 }
