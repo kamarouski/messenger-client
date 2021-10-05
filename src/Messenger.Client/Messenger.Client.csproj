@@ -3,7 +3,7 @@
     <Description>.NET Client for Facebook Messenger Platform. GitHub Repository: https://github.com/kamarouski/messenger-client</Description>
     <AssemblyTitle>Facebook Messenger .NET Client</AssemblyTitle>
     <Authors>Andrew Kamarouski</Authors>
-    <TargetFramework>net5.0</TargetFramework>
+    <TargetFramework>net6.0</TargetFramework>
     <AssemblyName>Messenger.Client</AssemblyName>
     <PackageId>Messenger.Client</PackageId>
     <PackageTags>facebook;messenger;chatbot;bot</PackageTags>
