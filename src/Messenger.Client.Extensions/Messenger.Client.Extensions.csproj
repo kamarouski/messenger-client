@@ -3,7 +3,7 @@
     <Description>ASP.NET Core extensions for Facebook MessengerThreadSettings Platform .NET client. GitHub Repository: https://github.com/kamarouski/messenger-client</Description>
     <AssemblyTitle>Facebook Messenger .NET Client ASP.NET Core Extensions</AssemblyTitle>
     <Authors>Andrew Kamarouski</Authors>
-    <TargetFramework>net8.0</TargetFramework>
+    <TargetFramework>net9.0</TargetFramework>
     <AssemblyName>Messenger.Client.Extensions</AssemblyName>
     <PackageId>Messenger.Client.Extensions</PackageId>
     <PackageTags>facebook;messenger;chatbot;bot</PackageTags>
@@ -20,7 +20,7 @@
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Messenger.Client" Version="0.6.0" />
-    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="8.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="9.0.2" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Messenger.Client\Messenger.Client.csproj" />
